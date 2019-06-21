@@ -6,7 +6,7 @@
 
 **2. Download and unzip the file OR To clone the file, go to command prompt or terminal and type the following**
 ```
-git clone <link>
+git clone https://github.com/Thumar/tansorflow-lite.git
 ```
 
 ## Creating an Image Classfication Tensorflow Model
