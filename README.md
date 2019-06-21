@@ -13,7 +13,7 @@ git clone <link>
 
 
 
-## Retraining an exisitng model
+## Retraining an existing model
 
 
 
