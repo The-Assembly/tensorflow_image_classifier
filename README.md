@@ -9,11 +9,33 @@
 git clone https://github.com/Thumar/tansorflow-lite.git
 ```
 
-## Creating an Image Classfication Tensorflow Model
-
-
-
 ## Retraining an existing model
+
+**Note: Python 3.7 is currently not entirely compatible with TensorFlow**
+
+This is a workaround for the issue. 
+
+**Download and Install Anaconda** *(https://www.anaconda.com/distribution/)*
+
+**1. Once it is installed, open the Anaconda prompt and install the following things**
+
+```
+conda create --name tensorflow python=3.6
+```
+**Windows:**
+```
+activate tensorflow
+```
+**Mac:**
+```
+source activate tensorflow
+```
+
+**Install Jupyter notebook**
+```
+conda install jupyter
+```
+
 
 ```
 python3 retrain.py --image_dir data_dir \
