@@ -46,6 +46,23 @@ python retrain.py --image_dir=data_dir \
 --output_graph=output/retrain.pb
 ```
 
+```
+conda install scipy
+pip install --upgrade sklearn
+pip install --upgrade pandas
+pip install --upgrade pandas-datareader
+pip install --upgrade matplotlib
+pip install --upgrade pillow
+pip install --upgrade tqdm
+pip install --upgrade requests
+pip install --upgrade h5py
+pip install --upgrade pyyaml
+pip install --upgrade tensorflow_hub
+pip install --upgrade bayesian-optimization
+pip install --upgrade tensorflow==1.12.0
+pip install --upgrade keras==2.2.4
+```
+
 **Dataset** 
 https://drive.google.com/open?id=1F-BaC_8yAeQKZHi1MjJfa6Miw_Wx4nKR
 
